@@ -1,5 +1,3 @@
-previews:
-  generation: automatic
 services:
 - type: web
   name: next-js-github
@@ -8,6 +6,8 @@ services:
   buildCommand: yarn; yarn build
   startCommand: yarn start
   autoDeploy: false
+  previews:
+    generation: automatic
   envVars:
   - key: NODE_ENV
     value: production
