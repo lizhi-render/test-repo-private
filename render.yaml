@@ -10,7 +10,7 @@ services:
   - key: NODE_ENV
     value: production
   - key: LIZARD
-    value: iguanas
+    value: iguana
 # Uncomment the following to deploy this app as a static site on render
 # - type: web
 #   name: nextjs-static
