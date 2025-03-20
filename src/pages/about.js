@@ -1,3 +1,3 @@
 export default function About() {
-  return <div>Meoowow  AGAIN</div>;
+  return <div>Meoooowow  AGAIN</div>;
 }
