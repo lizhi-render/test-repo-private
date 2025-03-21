@@ -4,14 +4,8 @@
 name: check-2
 
 on:
-  workflow_run:
-    workflows:
-    - check-1
-    types:
-    - completed
-    branches:
-    - master
-
+  push:
+    branches: [ "master" ]
 
 jobs:
   build:
