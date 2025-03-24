@@ -28,6 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - name: Sleep for 1 minute
-      run: sleep 60
+    - name: Sleep
+      run: sleep 120
     - run: npm test
