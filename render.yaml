@@ -6,6 +6,7 @@ services:
   buildCommand: yarn; yarn build
   startCommand: yarn start
   autoDeploy: true
+  
   envVars:
   - key: NODE_ENV
     value: production
