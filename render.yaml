@@ -10,7 +10,7 @@ services:
   - key: NODE_ENV
     value: production
 - type: cron
-  name: next-js
+  name: next-js-CRONYWONY
   runtime: node
   plan: starter
   buildCommand: yarn; yarn build
