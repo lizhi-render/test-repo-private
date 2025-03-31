@@ -13,6 +13,7 @@ services:
   name: next-js-CRONYWONYwww
   runtime: node
   plan: starter
+  schedule: "0 * * * *"
   buildCommand: yarn; yarn build
   startCommand: yarn start
   autoDeploy: false
