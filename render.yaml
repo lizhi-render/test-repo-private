@@ -16,7 +16,7 @@ services:
   schedule: "0 * * * *"
   buildCommand: yarn; yarn build
   startCommand: yarn start
-  autoDeploy: true
+  autoDeployTrigger: off
   envVars:
   - key: NODE_ENV
     value: production
