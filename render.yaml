@@ -10,7 +10,7 @@ services:
     value: production
   previews:
     generation: automatic
-  autoDeployTrigger: off
+  autoDeployTrigger: checksPass
 
 # - type: cron
 #   name: next-js-CRONYWONYwww
