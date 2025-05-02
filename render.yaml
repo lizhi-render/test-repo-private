@@ -10,7 +10,7 @@ services:
     value: production
   previews:
     generation: automatic
-  autoDeployTrigger: AWOOOGA
+  autoDeployTrigger: AWOOsssssOGA
 
 # - type: cron
 #   name: next-js-CRONYWONYwww
