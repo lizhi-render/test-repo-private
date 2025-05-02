@@ -10,6 +10,7 @@ services:
     value: production
   previews:
     generation: automatic
+  autoDeployTrigger: pushywushy
 
 # - type: cron
 #   name: next-js-CRONYWONYwww
