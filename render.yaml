@@ -12,7 +12,7 @@ services:
     value: chicken
   previews:
     generation: automatic
-  autoDeploy: false
+  autoDeployTrigger: commit
 
 # - type: cron
 #   name: next-js-CRONYWONYwww
