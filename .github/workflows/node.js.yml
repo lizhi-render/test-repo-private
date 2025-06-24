@@ -31,3 +31,6 @@ jobs:
     - name: Sleep
       run: sleep 120
     - run: npm test
+    - name: Skipped Step
+      if: false
+      run: echo "This step is intentionally skipped"
