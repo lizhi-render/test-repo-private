@@ -1,0 +1,14 @@
+name: check-3
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  test-skip:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Skipped test
+      if: false
+      run: echo "Test skipped"
